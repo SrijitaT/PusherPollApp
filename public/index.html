@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pusher Poll</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>OS Vote</h1>
+        <p>Vote for your favourite OS</p>
+        <form action="#" id="vote-form">
+            <p>
+                <label>
+                    <input name="os" type="radio" id="Windows" value="Windows" />
+                    <span>Windows</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="os" type="radio" id="MAC" value="MAC" />
+                    <span>MAC</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="os" type="radio" id="Ubuntu" value="Ubuntu" />
+                    <span>Ubuntu</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="os" type="radio" id="Linux" value="Linux" />
+                    <span>Linux</span>
+                </label>
+            </p>
+            <input type="submit" value="Vote" class="btn">
+        </form>
+        <br>
+        <br>
+        <div id="chartContainer" style="height:300px;width:100%">
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://js.pusher.com/4.3/pusher.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
